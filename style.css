@@ -69,8 +69,14 @@ img {
     justify-content: center;
     align-items: center;
 }
-
-.link > li {
+.link ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.link>ul>li {
     margin-top: 1rem;
     background-color: var(--link-bg-color);
     text-align: center;
@@ -81,7 +87,7 @@ img {
     font-family: var(--font-family-alt);
 }
 
-.link > li > a {
+.link >ul>li > a {
     color: white;
     text-decoration: none;
 }
